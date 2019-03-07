@@ -124,10 +124,11 @@ const OwnObjectArray = {
         try {
             if (Array.isArray(objectArray)) {
                 if (objectArray.length > 0) {
-                    let i;
                     let arrValues = [];
-                    for (i in objectArray)
-                        arrValues.push(objectArray[i][sPropertyName]);
+                    for (let i in objectArray) {
+                        arrValues = arrValues.concat([objectArray[i][sPropertyName]]);
+                    }
+                    
                     return Math.max.apply(Math, arrValues);
                 } else
                     return null;
@@ -229,9 +230,10 @@ Array.prototype.getMax = function (sPropertyName) {
         if (this.length > 0) {
             let arrValues = [];
             for (let i = 0; i < arrLength; i++) {
-                arrValues.push(this[i][sPropertyName]);
+                arrValues = arrValues.concat([this[i][sPropertyName]]);
             }
-            return Math.max.apply(Math, arrValues)
+
+            return Math.max.apply(Math, arrValues);
         }
         return null;
     } catch (e) { return e; }
