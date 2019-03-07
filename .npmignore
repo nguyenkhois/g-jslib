@@ -1,0 +1,8 @@
+.vscode
+.idea
+
+.editorconfig
+.eslintignore
+.eslintrc.json
+
+*test*
