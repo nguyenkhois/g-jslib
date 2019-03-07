@@ -1,0 +1,24 @@
+{
+    "name": "g-jslib",
+    "version": "1.2.2",
+    "description": "The lightweight pure JavaScript library",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [
+        "g-jslib",
+        "gjslib",
+        "javascript",
+        "library",
+        "javascript library"
+    ],
+    "author": "Khoi Le",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nguyenkhois/library.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nguyenkhois/library/issues"
+    },
+    "homepage": "https://github.com/nguyenkhois/library/tree/master/javascript"
+}
