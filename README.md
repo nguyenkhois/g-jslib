@@ -1,4 +1,6 @@
 # g-jslib
+[![Download g-jslib on npm](https://img.shields.io/npm/v/g-jslib.svg?style=flat)](https://www.npmjs.com/package/g-jslib)
+
 The lightweight pure JavaScript library.
 
 ## Installation
